@@ -1,0 +1,12 @@
+- defaults:
+    link:
+        relink: true
+        create: true
+- clean: ['~']
+
+- link:
+    ~/.vim/vimrc: vimrc
+    ~/.config/i3/config:
+        if: '[[ $(hostname) == "archtower" ]]'
+        path: i3Desktop
+    ~/.zshrc: zshrc
