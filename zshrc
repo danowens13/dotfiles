@@ -149,3 +149,5 @@ bindkey -v
 setopt extendedglob 
 setopt correct
 source <(fzf --zsh)
+alias pilot="cd '/home/dan/Documents/Pilot'"
+alias jh="cd '/home/dan/Documents/Pilot/2 Projects/Job Hunt'"

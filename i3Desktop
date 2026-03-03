@@ -91,7 +91,7 @@ exec --no-startup-id "sleep .25; loginctl lock-session"
 
 # Open standard windows
 exec --no-startup-id i3-msg 'workspace 6; exec firefox'
-exec --no-startup-id i3-msg 'workspace 10; exec --no-starup-id obsidian'
+exec --no-startup-id i3-msg 'workspace 10; exec obsidian'
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
