@@ -78,7 +78,8 @@ export MANPAGER="sh -c 'awk '\''{ gsub(/\x1B\[[0-9;]*m/, \"\", \$0); gsub(/.\x08
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git z alias-finder ssh-agent)
+# zsh-autosuggestions is a custom plugin from git clone https://github.com/zsh-users/zsh-autosuggestion
+plugins=(git z alias-finder ssh-agent zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
